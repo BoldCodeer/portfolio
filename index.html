@@ -3,9 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Portfolio - Keith Andrew Relles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url( 'qqquad.svg' );
+            background-size: cover;
+        }
+
+        /* Dark mode styles */
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Light mode styles */
+        .light-mode {
+            background-color: #fff;
+            color: #333;
+        }
+        .web {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .about {
+            text-align: center;
+        }
+        .about-title {
+            margin: 110px;
+        }
+        .about-text {
+            width: 60%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+        .tech-stack li {
+            display: inline-block;
+            padding: 13px;
+        }
+        .project {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .project-title {
+            margin: 110px;
+        }
+        .project-item {
+            margin: 20px;
+            padding: 30px;
+        }
+        .contact {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .contact-title {
+            margin-top: 90px;
+        }
+        .contact-desc {
+            margin-bottom: 50px;
+        }
+        .contact-info ul li {
+            display: inline-block;
+            padding: 18px;
+        }
+        footer{
+            margin: auto;
+            text-align: center;
+            background-color: #27445C;
+            padding: 18px;
+            color: #fff;
+            font-weight: bold;
+        }
+        footer ul li {
+            display: inline-block;
+            padding: 5px;
+        }
+        .menu-list {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    Happy coding monthsary bebu I love you <3></3> hahaha
+    <nav class="navbar navbar-expand-lg"  id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">KAR DEVELOPER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            menu
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li>
+                <button class="btn toggle-dark-mode shadow-none">
+                    <i class="fas fa-moon"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container-fluid">
+            <header>
+                <div class="row">
+                    <div class="col-md-5 d-flex justify-content-center align-items-center" style="padding: 100px;">
+                        <img src="https://th.bing.com/th/id/R.c66c081c43efc7315afa6938cdccb0a1?rik=YzQVj4r%2blNiDvQ&riu=http%3a%2f%2fcanadian-passport-support.com%2fwp-content%2fuploads%2f2014%2f09%2fbusinessman.png&ehk=wCZ87KKJNG%2bugBgUvBh7xdtzahjiS8gNCl%2bsNgBptfA%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    </div>
+                    <div class="col-md-7 flex justify-content-center align-items-center" style="padding: 100px;">
+                        <span>Hello, 👋 I am</span>
+                        <h1>Keith Andrew Relles</h1>
+                        <span class="web">WEB DEVELOPER</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <button class="btn btn-primary">
+                            <i style="text-align: center;" class='bx bx-cloud-download'></i> Get my Resume
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <div class="about">
+                <h2 class="about-title">ABOUT ME</h2>
+    
+                <div class="about-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt augue interdum velit. Ac ut consequat semper viverra nam libero justo laoreet sit. Pulvinar mattis nunc sed blandit. Et leo duis ut diam quam nulla. Ut sem nulla pharetra diam sit amet nisl. Amet nisl purus in mollis. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Laoreet id donec ultrices tincidunt.
+        
+        Mauris pharetra et ultrices neque ornare aenean. Morbi quis commodo odio aenean sed adipiscing diam. Praesent tristique magna sit amet purus gravida quis. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Nec tincidunt praesent semper feugiat. Nam at lectus urna duis convallis. Netus et malesuada fames ac turpis egestas integer eget. Sit amet volutpat consequat mauris. Sed tempus urna et pharetra pharetra massa massa. A erat nam at lectus. Mi eget mauris pharetra et.
+                    </p>
+                    <h5>My Tech Stack</h5>
+                    <ul class="tech-stack">
+                        <li><i style="font-size: xx-large;" class="fab fa-html5"></i><br>HTML</li>
+                        <li><i style="font-size: xx-large;" class="fab fa-css3-alt"></i><br>CSS</li>
+                        <li><i style="font-size: xx-large;" class="fab fa-bootstrap"></i><br>BOOTSTRAP</li>
+                        <li><i style="font-size: xx-large;" class="fab fa-js"></i><br>JAVASCRIPT</li>
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAixJREFUWEftl9tRw0AMRZVKgEqASoBKgEqASoBKgEpgDuPLKLJ2VzYJ5COe4YN4H0dXd6X1xg7s2RwYjx2BRhnZh0LXZvY42rj1ftdAp2YG0N1fA11MG76EjQF5/w+F3szsLFHh2cxe96VQywuocGJmNw0gfr7cdcpICX+ZFz7NjFRlmz5MHgJ2lbEzU2NMpQQ/+Efv+D1LGaoCxXuA4/yhcBkQqtyapUVTQCzcOqGavwoqLjpSgDRiXB4UaimAwqzFQ/pIcRyb2iIC+eiylLABHuJp+UhpIXVsKjCABMVvT5lH1wD56HsqAQYQ6ReUAgEm1rDvQCIQ6VDRa20mFZm/yic9Z0egmPvs6BIt4IqaSPHJ4hOVgfUUAiYrfqzjVeL/+6nurIEiIz/pi0AqbIKvniR5Y6lSKL01ZwRE5K3OHVOnIFC2adppEAUUs6sk/GQvAvk6U1GpBSXD66h/TP3Pl4G0vWTV1htb/hjdb3h/FY536zABOVNGg3utwy9YbZakwoP5kwjIKJXNfuWPdSV1vdKy6N2oQcbFqkpVIVBwq1T07tTRS9rkNzXHg5aaq5/QO0EUMsDSflSQBxhq3qyBj746elAqhoD5Tt7jkekB4gI3C2gExOIjKAHozkPN8b44nwb4GpTCZN2+F11sK4XMzIZ0a9BSIMbrfqMryhKoXrNuto7qBgBRAH0asrlA8J1W/gKpeKgCic/8rbBq8tnauwKqQJfGHIFGMn0BEc6HJXOh7W0AAAAASUVORK5CYII="/><br>JQUERY</li>
+                        <li><i style="font-size: xx-large;" class="fab fa-php"></i><br>PHP</li>
+                        <li><i style="font-size: xx-large;" class="fas fa-database"></i><br>MYSQL</li>
+                        <li><i style="font-size: xx-large;" class="fab fa-laravel fa-lg"></i><br>LARAVEL</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      
+      <div class="project">
+        <div class="container-fluid">
+            <h2 class="project-title">Project</h2>
+            <div class="row justify-content-between">
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+                <div class="col-md-2 project-item">
+                    <i style="font-size: 100px;" class="fas fa-image"></i>
+                    <h6>Project Title</h6>
+                    <button style="font-size: 11px; color: #fff;" class="btn btn-info">View Repository</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container-fluid">
+            <h2 class="contact-title">Contact me</h2>
+            <p class="contact-desc">Get in touch</p>
+            <div class="contact-info">
+                <ul>
+                    <li><i style="font-size: xx-large;" class="fab fa-github"></i><br>Github<br><a class="link-info" href="">Boldcodeer</a></li>
+                    <li><i style="font-size: xx-large;" class="fab fa-facebook"></i><br>Facebook<br><a class="link-info" href="">Keith Andrew Relles</a></li>
+                    <li><i style="font-size: xx-large;" class="fab fa-google"></i><br>Gmail<br><a class="link-info" href="">keith.bsit@gmail.com</a></li>
+                    <li><i style="font-size: xx-large;" class="fas fa-phone"></i><br>Phone<br><p class="link-info">09772405199</p></li>
+                    <li><i style="font-size: xx-large;" class="fab fa-linkedin"></i><br>Linkedin<br><a class="link-info" href="">Keith Andrew Relles</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <ul>
+                <li><a class="menu-list" href="">Home </a></li>
+                <li><a class="menu-list" href="">About </a></li>
+                <li><a class="menu-list" href="">Project </a></li>
+                <li><a class="menu-list" href="">Contact</a></li>
+            </ul>
+            <p class="footer-text">
+                Made by Keith using Bootstrap, and Fontawesome for Icon
+            </p>
+        </div>
+    </footer>
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const toggleButton = document.querySelector('.toggle-dark-mode');
+        const body = document.body;
+        let isDarkMode = false;
+
+        toggleButton.addEventListener('click', function () {
+            if (isDarkMode) {
+                // Switch to light mode
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+                toggleButton.innerHTML = '<i class="fas fa-moon"></i>';
+            } else {
+                // Switch to dark mode
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+                toggleButton.innerHTML = '<i style="color: white" class="fas fa-sun"></i>';
+            }
+
+            isDarkMode = !isDarkMode;
+        });
+    });
+      </script>
 </body>
 </html>
