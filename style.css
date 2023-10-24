@@ -48,12 +48,12 @@ header {
     text-align: center;
 }
 .project-title {
-    margin: 60px;
+    margin: 50px 30px;
 }
-.project-item {
+/* .project-item {
     margin: 20px;
     padding: 30px;
-}
+} */
 .contact {
     width: 80%;
     margin: auto;
@@ -104,4 +104,9 @@ footer ul li {
 
 h5{
     margin: 30px;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 10px; /* Add spacing between list items */
 }
