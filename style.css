@@ -111,3 +111,6 @@ h5{
     display: inline-block;
     margin-right: 10px; /* Add spacing between list items */
 }
+.card-body {
+    background-color: #9ed3ff;
+}
